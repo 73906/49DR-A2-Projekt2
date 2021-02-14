@@ -36,13 +36,13 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.TempWew = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.TempZew = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.Wilg = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.Cisn = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -115,14 +115,14 @@
             this.label5.TabIndex = 9;
             this.label5.Text = "Temperatura Wewnętrzna";
             // 
-            // label4
+            // TempWew
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(197, 51);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 20);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "label4";
+            this.TempWew.AutoSize = true;
+            this.TempWew.Location = new System.Drawing.Point(197, 51);
+            this.TempWew.Name = "TempWew";
+            this.TempWew.Size = new System.Drawing.Size(50, 20);
+            this.TempWew.TabIndex = 10;
+            this.TempWew.Text = "label4";
             // 
             // label6
             // 
@@ -133,14 +133,14 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "Temperatura zewnętrzna";
             // 
-            // label7
+            // TempZew
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(197, 70);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(50, 20);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "label7";
+            this.TempZew.AutoSize = true;
+            this.TempZew.Location = new System.Drawing.Point(197, 70);
+            this.TempZew.Name = "TempZew";
+            this.TempZew.Size = new System.Drawing.Size(50, 20);
+            this.TempZew.TabIndex = 12;
+            this.TempZew.Text = "label7";
             // 
             // label8
             // 
@@ -151,14 +151,14 @@
             this.label8.TabIndex = 13;
             this.label8.Text = "Wilgotność ";
             // 
-            // label9
+            // Wilg
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(197, 90);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(50, 20);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "label9";
+            this.Wilg.AutoSize = true;
+            this.Wilg.Location = new System.Drawing.Point(197, 90);
+            this.Wilg.Name = "Wilg";
+            this.Wilg.Size = new System.Drawing.Size(50, 20);
+            this.Wilg.TabIndex = 14;
+            this.Wilg.Text = "label9";
             // 
             // label10
             // 
@@ -169,27 +169,27 @@
             this.label10.TabIndex = 15;
             this.label10.Text = "Ciśnienie atmosferyczne";
             // 
-            // label11
+            // Cisn
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(197, 110);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(58, 20);
-            this.label11.TabIndex = 16;
-            this.label11.Text = "label11";
+            this.Cisn.AutoSize = true;
+            this.Cisn.Location = new System.Drawing.Point(197, 110);
+            this.Cisn.Name = "Cisn";
+            this.Cisn.Size = new System.Drawing.Size(58, 20);
+            this.Cisn.TabIndex = 16;
+            this.Cisn.Text = "label11";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(759, 426);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.Cisn);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.Wilg);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.TempZew);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.TempWew);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
@@ -216,13 +216,13 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label TempWew;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label TempZew;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label Wilg;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label Cisn;
     }
 }
 
